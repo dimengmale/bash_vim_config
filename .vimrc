@@ -127,14 +127,14 @@ colorscheme koehler
 "set guifont=Courier\ New:h15
 set guifont=Consolas:h15
 
-set nu
-set ai
+set nu                       " show line number
+set autoindent               " 自动对齐
+set smartindent              " 智能自动缩进
 set tabstop=4                " 设置tab键的宽度
 set shiftwidth=4             " 换行时行间交错使用4个空格
-set autoindent               " 自动对齐
+set expandtab
 set backspace=2              " 设置退格键可用
 set cindent shiftwidth=4     " 自动缩进4空格
-set smartindent              " 智能自动缩进
 set showmatch                " 显示括号配对情况
 set mouse=a                  " 启用鼠标
 set ruler                    " 右下角显示光标位置的状态行
